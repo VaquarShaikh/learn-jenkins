@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-                echo 'bhai ka bddae'
+                echo Teri maa ki chut
             }
         }
     }
