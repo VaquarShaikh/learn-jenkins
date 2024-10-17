@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-                echo Teri maa ki chut
+                git 'https://github.com/VaquarShaikh/learn-jenkins.git'
             }
         }
     }
