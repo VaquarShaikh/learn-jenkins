@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('git checkout'){
-            steps{
-                git 'https://github.com/VaquarShaikh/learn-jenkins.git'
+        stage('git checkout') {
+            steps {
+                echo 'bhai ka bddae'
             }
         }
     }
